@@ -1,0 +1,61 @@
+
+a{
+  background-color: lightgreen;
+}
+
+.btnTask{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.589);
+
+  padding: 2%;
+  margin:2%;
+  border-radius: .6em;
+  &:hover{
+    cursor: pointer;
+  }
+  
+}
+h1{
+  text-align: center;
+  border: 1px solid;
+  margin: auto;
+  width: 400px;
+}
+.tasks{
+  
+    display: flex;
+    margin: 1px;
+    flex-direction: column;
+    align-items: center;
+    .id{
+      border:1px solid black;
+      border-radius: .35em;
+    }
+}
+
+form{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  > div{
+  border: 1px solid;
+  padding: 5px;
+  margin: 5px;
+  }
+}
+*{
+  margin: 1%;
+  padding: 1%;
+  border-radius: .6em
+}
+
+.btn{
+  button{
+    padding: 2%;
+    margin: 2%
+  }
+}
+
+button{
+  padding: 0.5%
+}
